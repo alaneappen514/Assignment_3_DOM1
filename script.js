@@ -37,3 +37,10 @@ li.innerText = "four";
 const ul = document.querySelector('ul');
 ul.appendChild(li);
 
+//12
+var makeBlue = document.getElementById("container").childNodes[3].classList.add("makeBlue");
+
+//13
+var removeDiv = document.getElementsByClassName("footer")[0];
+
+removeDiv.remove();
