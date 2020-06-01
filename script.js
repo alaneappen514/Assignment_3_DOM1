@@ -1,3 +1,4 @@
 // Part 5
 const section = document.getElementById("container");
-document.innerText = "Hello!";
+section.innerText = "Hello!";
+console.log(section.innerText);
