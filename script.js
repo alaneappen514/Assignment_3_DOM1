@@ -1,3 +1,4 @@
+
 // prompt 8: create a new li element
 const li = document.createElement("li");
 console.log(li);
