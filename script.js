@@ -6,3 +6,5 @@ section.innerText = "Hello!";
 // Select the div with the class of footer and add the class main to it
 const footer = document.getElementsByClassName("footer")[0];
 footer.classList.add("main");
+// Part 7
+footer.classList.remove("main");
